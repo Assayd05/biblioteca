@@ -1,0 +1,30 @@
+/* Fondo de la página */
+body {
+    background: url('/src/Assets/12.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal de la página */
+.home-container {
+    min-height: 100vh; /* Hace que cubra toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Estilo para la imagen del libro */
+.book-image {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
